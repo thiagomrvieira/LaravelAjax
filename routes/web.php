@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+//Ajax Crud Laravel
+Route::resource('ajax-crud', 'AjaxController');
